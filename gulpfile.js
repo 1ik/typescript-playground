@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
  
-var fileName = "helloworld";
+var fileName = "02_strong_type";
 
 gulp.task('default', function () {
 	return gulp.src('src/'+fileName+'.ts')
