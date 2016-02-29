@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
  
-var fileName = "04_duck-typing";
+var fileName = "05_arrays";
 
 gulp.task('default', function () {
 	return gulp.src('src/'+fileName+'.ts')
