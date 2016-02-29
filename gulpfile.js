@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
  
-var fileName = "03_const-and-let";
+var fileName = "04_duck-typing";
 
 gulp.task('default', function () {
 	return gulp.src('src/'+fileName+'.ts')
