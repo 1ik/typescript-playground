@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
  
-var fileName = "08_enums";
+var fileName = "09_functions";
 
 gulp.task('default', function () {
 	return gulp.src('src/'+fileName+'.ts')
