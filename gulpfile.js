@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
  
-var fileName = "chapter_03/02_class_and_interface";
+var fileName = "chapter_03/03_inheritance";
 
 gulp.task('default', function () {
 	return gulp.src('src/'+fileName+'.ts')
