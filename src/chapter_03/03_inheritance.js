@@ -53,3 +53,22 @@ var TruckAndBus = (function (_super) {
     };
     return TruckAndBus;
 }(Ford));
+//class property accessors.
+var Human = (function () {
+    function Human() {
+    }
+    Object.defineProperty(Human.prototype, "age", {
+        get: function () {
+            return this._age;
+        },
+        set: function (value) {
+            this._age = value + 3;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return Human;
+}());
+var h = new Human();
+h.age = 5;
+console.log(h.age); //prints 8

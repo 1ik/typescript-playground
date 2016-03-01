@@ -77,3 +77,22 @@ class TruckAndBus extends Ford implements Bus {
 		return false;
 	}
 }
+
+
+//class property accessors.
+class Human {
+	private _age: number;
+
+	get age() {
+		return this._age;
+	}
+
+	set age(value: number) {
+		this._age = value + 3;
+	}
+}
+
+let h = new Human();
+h.age = 5;
+console.log(h.age); //prints 8
+
