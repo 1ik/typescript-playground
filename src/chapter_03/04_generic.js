@@ -36,4 +36,4 @@ var GenericCreator = (function () {
     return GenericCreator;
 }());
 var creator1 = new GenericCreator();
-console.log(typeof (creator1.create(FirstClass)));
+creator1.create(FirstClass);

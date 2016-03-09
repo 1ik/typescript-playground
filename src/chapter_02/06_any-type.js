@@ -10,4 +10,4 @@ anyType = {
 };
 anyType.grade = 5; // works
 console.log(anyType);
-anyType.name = 5;
+anyType.name = 5; //works as well.

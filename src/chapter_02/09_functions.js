@@ -39,4 +39,4 @@ var operate = function (text, callback) {
     console.log("the number is ", callback(text));
 };
 operate(" Hey this is a string", callbackReturnsNumber); //works
-operate(" Hey this is a string", callbackReturnsNothing); // wont' work because the strongly typed check on callback will throw compiler error.
+//operate(" Hey this is a string", callbackReturnsNothing); // wont' work because the strongly typed check on callback will throw compiler error.

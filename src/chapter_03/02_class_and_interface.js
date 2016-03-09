@@ -13,13 +13,13 @@ var Bus = (function () {
     };
     return Bus;
 }());
+var ford = new Bus(4, "Ford");
+console.log(ford.speed());
+var merc = new Bus(4, 3322);
+console.log(merc.speed());
 /*
 // Class 'Truck' incorrectly implements interface 'Car' Error
 class Truck implements Car {
     wheels: number;
 }
 */
-var ford = new Bus(4, "Ford");
-console.log(ford.speed());
-var merc = new Bus(4, 3322);
-console.log(merc.speed());

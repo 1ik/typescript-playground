@@ -4,8 +4,10 @@ var bus = {
     company: "Scania"
 };
 //compiles fine.
-var truck = {
+/*
+var truck: Car = {
     wheels: 4,
     company: "Ford",
-    horns: true //wont compile as the interface Car doesnt have this property
+    horns : true //wont compile as the interface Car doesnt have this property
 };
+*/ 

@@ -32,4 +32,8 @@ complexType = { name: "name", id: 2, address: "address" };
 var student;
 var student2 = { name: "Anik", username: "21k" };
 student = student2;
-console.log(student);
+console.log(student); // prints { name: 'Anik', username: '21k' }
+//so we saw that we are first assigning the type of the object and its properties also making the commits property
+//optional by placing a ? mark just after it.
+//Then we make an object with all the properties except the commits on and assign it to student it just takes because
+// that satisfied all its types and commits was optional. 
